@@ -3,14 +3,14 @@ body {
     font-family: 'Sintony', sans-serif;
     color: #e5e5e5;
     font-size: 12px;
-    background: #ffffff;
+    background: #a4b5db;
     line-height: 1;
-    width: 1026px;
+    width: 1024px;
     margin-right: auto;
     margin-left: auto;
 }
   header {
-    width: 1026px;
+    width: 1024px;
     height: 50px;
     margin-right: auto;
     margin-left: auto;
@@ -19,25 +19,15 @@ body {
     display: table;
     background-color: rgb(4, 148, 44);
   }
-
-  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-    display: block;
-  }
   ol, ul {
     list-style: none;
   }
-  header h2 {
-  margin: 25px 5px;
-  font-size: 28px;
-  text-align: center;
-  color: cornsilk;
-  }
+ 
   
   #logo{
     width: 50px;
     height: 50px;
     float: left
-    padding: 4px;
   }
 
   .menu {
@@ -62,8 +52,8 @@ body {
     text-decoration: none;
     color:rgba(3, 53, 110, 0.5);
     font-weight: bold; 
-    font-size: 18px; 
-    padding: 22px 15px;
+    font-size: 17px; 
+    padding: 10px 15px;
   }
 
   nav ul li a:hover {
@@ -72,14 +62,34 @@ body {
     padding: 22px 15px;
   }
 
-  #mapa{
-    width: auto;
-    padding: 5px 60px;
-    background-color: rgb(116, 54, 54);
+  #mapaBuscador, #googleMap, #buscador{
+    width:1024px; 
+    height: 600px;
+    background-color: bisque;
+  }
+ #mapaBuscador{
+  box-sizing: content-box;
+  width: 100%;
+  position: relative;
+  z-index: -2;
+ }
+  #googleMap{
+    background-color: aqua;
   }
 
   iframe{
-    margin: none;
-    width: 900px;
-    height: 600px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: orange;
+    opacity: 0.80;
+    position: absolute;
+  }
+
+
+
+  footer{
+    width: 1024px;
+    height: 300px;
+    background-color: violet
   }
