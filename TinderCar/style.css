@@ -3,28 +3,23 @@ body {
     font-family: 'Sintony', sans-serif;
     color: #e5e5e5;
     font-size: 12px;
-    background: #5e606b;
+    background: #ffffff;
     line-height: 1;
     width: 1026px;
     margin-right: auto;
     margin-left: auto;
 }
   header {
-    width: 1024px;
+    width: 1026px;
+    height: 50px;
     margin-right: auto;
     margin-left: auto;
-    background-color: #fff;
+    clear: both;
+    content: "";
+    display: table;
+    background-color: rgb(4, 148, 44);
   }
 
-  /** * Eric Meyer's Reset CSS v2.0 (https://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
-  html, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-  }/* HTML5 display-role reset for older browsers */
   article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
   }
@@ -32,92 +27,59 @@ body {
     list-style: none;
   }
   header h2 {
-    margin: 25px 10px;
+  margin: 25px 5px;
   font-size: 28px;
   text-align: center;
   color: cornsilk;
   }
+  
+  #logo{
+    width: 50px;
+    height: 50px;
+    float: left
+    padding: 4px;
+  }
 
-  nav.menu {
-    background: rgb(255, 255, 255);
-    position: relative;
-    min-height: 45px;
-    height: 100%;
-  }
-  
-  .menu > ul > li {
-    list-style: none;
-    display: inline-block;
-    color: #fff;
-    line-height: 45px;
-    
-  }
-  .menu > ul li a, .xs-menu li a {
-    text-decoration: none;
-    color: #5e606b;
-     display:block;
-     padding: 0px 24px;
-  }
-  .menu > ul li a:hover {
-    background:rgb(6, 65, 110);
-    color: #fff;
-    transition-duration: 0.3s;
-    -moz-transition-duration: 0.3s;
-    -webkit-transition-duration: 0.3s;
-  }
-  .active{
-    background:rgb(6, 65, 110);!important;
-    
-  }
-  .displaynone{
-    display: none;
-  }
-   /*MediaQuerys*/
-   @media (max-width: 600px) {
   .menu {
-   display:none;
-   }
-   .xs-menu li a {
-  
-     padding:0px;
+    width: 990px;
+    margin: 0 auto;
+    height: 50px;
+
   }
-   .xs-menu-cont{
-   display:block ;
-   }
-   }
-  
-  
-  /*Animation--*/
-  
-  .animated {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+  nav{
+    float:right;
+    height: 50px;
+    background-color:#ffff;
   }
-  @-webkit-keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-  
-    100% {
-      opacity: 1;
-    }
+  nav ul li{
+    list-style: none;
+    margin-left: 15px;
+    float:left;
   }
-  
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-  
-    100% {
-      opacity: 1;
-    }
+
+  nav ul li a{
+    text-align: center;
+    text-decoration: none;
+    color:rgba(3, 53, 110, 0.5);
+    font-weight: bold; 
+    font-size: 18px; 
+    padding: 22px 15px;
   }
-  
-  .fadeIn {
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
+
+  nav ul li a:hover {
+    background-color: rgba(4, 43, 84, 0.5);
+    color: #ffffff;
+    padding: 22px 15px;
   }
-  
-  
+
+  #mapa{
+    width: auto;
+    padding: 5px 60px;
+    background-color: rgb(116, 54, 54);
+  }
+
+  iframe{
+    margin: none;
+    width: 900px;
+    height: 600px;
+  }
