@@ -1,0 +1,51 @@
+/* Navbar */
+
+#logo{
+    text-align: right;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+.navbar{
+    background-color: rgba(49, 120, 234, 0.8);
+ }
+ 
+ .navbar .container-fluid{
+    height: 3em;
+ }
+ 
+ .nav-item {
+    text-align: left;
+ }
+ 
+ .navbar-nav i{
+    text-decoration: none;
+    color: #ffff;
+    display: inline-block;
+    transition: .5s;
+ }
+ 
+
+
+
+ /*mapa
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+iframe{
+	width: 80%;
+    height: 400px;
+	margin: 0 auto;	
+}
+
+*/
+
