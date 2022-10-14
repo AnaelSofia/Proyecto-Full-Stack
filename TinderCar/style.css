@@ -1,95 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-    font-family: 'Sintony', sans-serif;
-    color: #e5e5e5;
     font-size: 12px;
-    background: #a4b5db;
+    color: #e5e5e5;
+    font-family: 'Sintony', sans-serif;
     line-height: 1;
-    width: 1024px;
-    margin-right: auto;
-    margin-left: auto;
+    background: #5e606b;
+    max-width: 1500px;
+    margin: 0 auto;
 }
-  header {
-    width: 1024px;
-    height: 45px;
-    padding: 5px;
-    margin-right: auto;
-    margin-left: auto;
-    clear: both;
-    content: "";
-    display: table;
-    background-color: white;
-  }
-  ol, ul {
+ul {
     list-style: none;
   }
- 
-  
-  #logo{
-    width: 50px;
-    height: 50px;
-    float: left
-  }
 
-  .menu {
-    width: 990px;
-    margin: 0 auto;
-    height: 50px;
-
-  }
-  nav{
-    float:right;
-    height: 45px;
-    background-color:#ffff;
-  }
-  nav ul li{
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    height: 60px;
+    align-items: center;
+    font-size: 15px;
+    background: #fff;   
+}
+nav ul li{
     list-style: none;
     margin-left: 15px;
     float:left;
   }
-
   nav ul li a{
     text-align: center;
     text-decoration: none;
-    color: #8592b0;
+    color: #4455b0;
     font-weight: bold; 
     font-size: 20px; 
     padding: 8px 12px;
   }
 
   nav ul li a:hover {
-    background-color: rgba(4, 43, 84, 0.5);
+    background-color: #4455b0;
     color: #ffffff;
     padding: 22px 15px;
   }
+.logo a img {
+    width: 50px;
+}
+#mapaBuscador{
+    width:100%; 
+    height: 400px;
+}
+#googleMap{
+    width:80%; 
+    margin-right: auto;
+    margin-left: auto;
+    height: 330px;
+    position: relative;
+}
 
-  #mapaBuscador, #googleMap{
-    width:1024px; 
-    height: 600px;
-    background-color: bisque;
-  }
- #mapaBuscador{
-  
-  box-sizing: content-box;
-  width: 100%;
-
- }
-  #googleMap{
-    background-color: rgb(74, 92, 92);
-  }
-
-  iframe{
+iframe{
     width: 100%;
-    height: 100%;
-    background-color: orange;
-    opacity: 0.80;
+    opacity: 0.55;
+    color: #6879a1;
+    position: relative;
   }
-  footer{
-    width: 1024px;
-    height: 410px;
+
+.flex-searchBlock {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:200px;
+    right:680px;
+}
+
+.searchBlock {
+    width: 150%;
+}
+
+.searchBlock-title {
+    margin-bottom: 10px;
+}
+
+.searchBlock-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchBlock-form-input {
+    width: 80%;
+    outline: none;
+    padding: 8px;
+    border: none;
+    }
+
+.searchBlock-form-btn {
+    width: 40%;
+    font-weight: bold;
+    padding: 4px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color:#4455b0 ;
+    
+}
+
+.searchBlock-form-input,
+.searchBlock-form-btn {
+    border-radius: 5px;
+    
+}
+
+#pasos{
+    height: 500px;
     background-color: white;
-    padding:15px;
-  }
-  .card-body{
-    background-color: #a4b5db;
-  }
+    padding:80px;   
+    width:90%; 
+    margin-right: auto;
+    margin-left: auto; 
+
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.pasos-title {
+    text-transform: uppercase;
+    padding-top: 10px;
+
+}
