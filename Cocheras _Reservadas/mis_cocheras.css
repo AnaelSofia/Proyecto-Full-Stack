@@ -1,0 +1,92 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    height: 60px;
+    align-items: center;
+    font-size: 15px;
+    background: #fff;   
+}
+
+.logo a img {
+    width: 50px;
+}
+
+/*Estilo títulos*/
+.titulo{
+    margin-top: 3%;
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: center;
+}
+
+/*Mis cocheras*/
+.contenido-cochera{
+    background-color: #6879a1;
+    position: relative;
+    border: 1px solid;
+    width: 40%;
+    height: 250px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.detalle-cochera{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+
+.nro-cochera, .reserva, .direccion, .estadia, .precio{
+    font-size: 20px;
+    color: #fff;
+}
+/*Reserva cocheras*/
+
+.cochera-container,.reserva-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.cochera{
+    background-color: #6879a1;
+    position: relative;
+    border: 1px solid;
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.imagen-cochera{
+    position: absolute;
+    top: 25%;
+    margin-left: 5%;
+}
+
+.descripcion{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+
+.descripcion .btn{
+    margin-top: 3%;
+    margin-left: 25%;
+}
+.reserva, .direccion, .estadia, .precio{
+    font-size: 20px;
+    color: #fff;
+}
+
+.volver{
+    text-align:center;
+}
+
+.volver .icono{
+    font-size: 35px;
+    color: #6879a1;
+}
