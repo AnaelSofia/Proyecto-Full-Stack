@@ -306,6 +306,43 @@ h2 {
 
 }
 
+/*CSS INICIO PROPIETARIO*/
+#inicioProp {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	height: 80%;
+	width: 60%;
+}
+
+.btnJUAN {
+	background-color: #1cb1d2;
+	display: inline-block;
+	width: 188px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	padding: 15px 32px;
+	margin: 10px 2px;
+	border-radius: 10px;
+}
+
+.btnjuan :hover{
+	background-color: #1b9cba;
+}
+
+.usuario{
+	max-height: 50px;
+	max-width: 50px;
+	align-content: center;
+	margin: 20px;
+}
+
 
 /*Css FACTURACION*/
 
