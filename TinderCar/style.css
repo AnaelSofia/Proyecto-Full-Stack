@@ -135,18 +135,26 @@ iframe{
 
 }
 
+/*Css FACTURACION*/
+
 #saldo{
-width: 70px;
+width:400px;
 height: 250px;
-margin: 10px;
-justify-content: center;
+padding: 20px;
 margin-right: auto;
 margin-left: auto; 
 background-color: #6879a1;
+text-align:center;
 }
 
 h4{
     color: #e5e5e5;
     font-weight: bold;
+}
+
+.btn btn-light{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto; 
 }
 
