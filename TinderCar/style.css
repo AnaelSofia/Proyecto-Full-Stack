@@ -134,3 +134,19 @@ iframe{
     padding-top: 10px;
 
 }
+
+#saldo{
+width: 70px;
+height: 250px;
+margin: 10px;
+justify-content: center;
+margin-right: auto;
+margin-left: auto; 
+background-color: #6879a1;
+}
+
+h4{
+    color: #e5e5e5;
+    font-weight: bold;
+}
+
