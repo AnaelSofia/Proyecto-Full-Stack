@@ -1,0 +1,29 @@
+body{
+    background: url(imgseccion/estacionamientovacio.jpg) no-repeat center center fixed;
+    background-size:cover; 
+}
+.main-section{
+    margin:0 auto ;
+    margin-top: 25%;
+    padding: 0;
+}
+.modal-content{
+    background-color:/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7c94ea+3,7c94ea+3,8c89ed+8,8c89ed+8,8c89ed+13,ffffff+52,f6f6f6+96 */
+    background: rgb(124,148,234); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgb(124,148,234) 3%, rgb(124,148,234) 3%, rgb(140,137,237) 8%, rgb(140,137,237) 8%, rgb(140,137,237) 13%, rgb(255,255,255) 52%, rgb(246,246,246) 96%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgb(124,148,234) 3%,rgb(124,148,234) 3%,rgb(140,137,237) 8%,rgb(140,137,237) 8%,rgb(140,137,237) 13%,rgb(255,255,255) 52%,rgb(246,246,246) 96%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgb(124,148,234) 3%,rgb(124,148,234) 3%,rgb(140,137,237) 8%,rgb(140,137,237) 8%,rgb(140,137,237) 13%,rgb(255,255,255) 52%,rgb(246,246,246) 96%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c94ea', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+    
+    opacity: 80;
+    padding: 0 22px;
+    box-shadow: 0px 1px 3px black;
+}
+.user-img{
+    margin-top: -5opx;
+    margin-bottom: 30px;
+}
+.user-img img{
+    width: 100px;
+    height: 100px;
+}
