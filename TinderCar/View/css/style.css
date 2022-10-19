@@ -6,7 +6,7 @@
 
 body {
     font-size: 12px;
-    color: #e5e5e5;
+    color: white;
     font-family: 'Sintony', sans-serif;
     line-height: 1;
     background: #5e606b;
@@ -24,7 +24,7 @@ header {
     height: 60px;
     align-items: center;
     font-size: 15px;
-    background: #fff;   
+    background: white;   
 }
 nav ul li{
     list-style: none;
