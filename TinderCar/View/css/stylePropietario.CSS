@@ -1,0 +1,10 @@
+*{
+    background-color: white;
+}
+.contenedor{
+    width:100px;
+    background-color:#454951;
+    height: 100%;
+    margin: auto;
+    margin-top: 20PX;
+}

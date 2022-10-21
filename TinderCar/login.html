@@ -5,9 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TinderCar</title>
-    
-    <link rel="stylesheet" type="text/css" href="css/styleIndex.css">
-    <link rel="stylesheet" type="text/css" href="css/styleRegistro.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleRegistro.css" />
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
@@ -24,8 +23,8 @@
           <ul>
             <li><a href="3">Acerca de nosotros</a></li>
             <li><a href="3">Alquila tu cochera</a></li>
-            <li><a href="3">Registrate</a></li>
-            <li><a href="Ingresa.html">Ingresa</a></li>
+            <li><a href="Registro.html">Registrate</a></li>
+            <li><a href="login.html">Ingresa</a></li>
           </ul>
         </nav>
       </div>
@@ -34,49 +33,36 @@
     <section>
       <form>
         <div class="registro">
-          <h3>Registrá tu automóvil</h3> <br/>
+          <h3>Ingresa</h3>
           <!--<h2>____________________________</h2>-->
+          <br/>
 
           <div class="registros">
-            <label for="nombre" class="form-label"> Marca del automóvil </label>
+            <label for="nombre" class="form-label"> Nombre del usuario </label>
             <input type="nombre" class="form-control" id="nombre" />
           </div>
           <div class="registros">
             <label for="contraseña" class="form-label">
-              Modelo del automóvil</label
+              contraseña </label
             >
             <input type="contraseña" class="form-control" id="contraseña" />
           </div>
           <br />
-          <a class="btn-1" href="#">
-            <img
-              src="imagenes/icperfil.jpg"
-              alt="imagen avatar"
-              title="avatar"
-              
-              
-      
-            />
-          </a>
           <!-- <button type="button">
          <img src="imagenes/blank-profile-picture-973460_960_720.jpg" alt="imagen avatar" title="avatar" width="50px" height="50px" text-align="center"/>
        
         </button> -->
+    
           <input
             class="botons btn btn-secondary"
             type="submit"
-            value="Agregar Avatar"
+            value="Ingresar"
           />
-          <input
-            class="botons btn btn-secondary"
-            type="submit"
-            value="Registrar"
-          />
-        </div>
+        
+        <p><a style="color: #6c65bb" style="text-align:center" type="button" class="btn btn-link" href="Ingresa.html" id="link">  Registrarme </a></p>
+        <h6><a style="color:#8592b0" href="index.html">Volver</a></h6>
+    </div>
       </form>
     </section>
   </body>
-  <footer>
-    <p>Creado TinderCar 2022<</p>
-  </footer>
 </html>

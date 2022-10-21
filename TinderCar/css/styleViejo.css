@@ -1,32 +1,32 @@
-* {
+/* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}*/
 
-body {
+/*body {
     font-size: 12px;
-    color: white;
+    color: #e5e5e5;
     font-family: 'Sintony', sans-serif;
     line-height: 1;
     background: #5e606b;
     max-width: 1500px;
     margin: 0 auto;
-}
-ul {
+}*/
+/*ul {
     list-style: none;
   }
 
-header {
+/*header {
     display: flex;
     justify-content: space-between;
     padding: 0 150px;
     height: 60px;
     align-items: center;
     font-size: 15px;
-    background: white;   
-}
-nav ul li{
+    background: #fff;   
+}*/
+/*nav ul li{
     list-style: none;
     margin-left: 15px;
     float:left;
@@ -135,18 +135,19 @@ iframe{
 
 }
  /*CSS REGISTRO UNICO*/
- .registro{
-    width: 400px;
+ /*.registro{
+    width: 50%;
     /*background: Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#feffff+0,ddf1f9+44,a0d8ef+100 ;*/
-    background: #feffff; /* Old browsers */
-    background: -moz-linear-gradient(top,  #feffff 0%, #ddf1f9 44%, #a0d8ef 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #feffff 0%,#ddf1f9 44%,#a0d8ef 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  #feffff 0%,#ddf1f9 44%,#a0d8ef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); /* IE6-9 */
+    background: #454951; /* Old browsers 
+   /* background: -moz-linear-gradient(top,  #feffff 0%, #ddf1f9 44%, #a0d8ef 100%); /* FF3.6-15 */
+   /* background: -webkit-linear-gradient(top,  #feffff 0%,#ddf1f9 44%,#a0d8ef 100%); /* Chrome10-25,Safari5.1-6 */
+    /*background: linear-gradient(to bottom,  #feffff 0%,#ddf1f9 44%,#a0d8ef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); /* IE6-9 
     ;
     padding: 30px;
     margin: auto;
-    margin-top: 150px ;
+    margin-top: 10%;
+    margin-right:30%;
     border-radius: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
@@ -160,14 +161,16 @@ iframe{
 }
 
 .relleno{
-    width: 100%;
+    width: 90%;
     background: white;
-    padding: 10px;
+    padding: 15px;
     border-radius: 4px;
     margin-bottom: 16px;
+    margin-left: 25px;
     border: 1px solid black;
     font-family: sans-serif;
     font-size: 15px;
+   
 }
 
 .registro p{
@@ -189,125 +192,23 @@ iframe{
 }
 
 .boton {
-width: 100%;
+width: 90%;
 border: none;
-background: #1f53c5;
+background: #4f42de;
+	border: solid 2px blueviolet;
 padding: 10px;
 color: white;
 margin: 15px 0;
 font-size: 15px;
 border-radius: 8px;
-
-}
-/*CSS registro usario y propietario*/
-
-
-
-
-h2 {
-    color: #8592b0;
+margin-left: 25px;
 
 }
 
 
-
-.registro {
-    width: 400px;
-	background-color:#454951 ;
-    height: auto;
-	/*padding: 30px; */
-	margin: auto;
-	margin-top: 50px;
-	margin-left: 500px;
-	border: 10px solid #0000; 
-	box-shadow: 7px 13px 37px #000;
-    margin-bottom: 50px;
-    
-
-}
-
-
-
-.registro .registros{
-
-    color: #8592b0;
-    width: 100%;
-	background-color:#454951;
-	padding: 10px;
-	/*border-radius: 4px;
-	margin-bottom: 16px;*/
-	border: 1px solid #454951;
-	font-size: 18px;
-    font-family:Arial, Helvetica, sans-serif;
-	
-
-}
-
-
-.registro h3 {
-    color: #acb4c9;
-    margin:auto;
-    margin-top: 10%;
-    margin-left: 5%;
-
-}
-
-.registro h2{
-    color: #8592b0;
-}
-
-
-
-  /*.btn-bd-secondary:active {
-    color:blueviolet;
-  }*/
-
-
-.registro .botons {
-
-	width: 100%;
-	background: #4f42de;
-	border: solid 2px blueviolet;
-	padding: 12px;
-	color: whitesmoke;
-	margin: 16px 0;
-	font-size: 16px;
-    font-family:Arial, Helvetica, sans-serif;
-} 
-
-.registro p{
-    text-align: center;
-}
-
-.form-check{
-    color: #8592b0;
-    font-size: 16px;
-    font-family:Arial, Helvetica, sans-serif;
-
-}
-
-.registro h5{
-    color: #8592b0;
-    font-family:Arial, Helvetica, sans-serif;
-} 
-
-
-.btn-1{
-    margin-left:35%;
-    border-radius: 50%;
-    background-color: #8d96a9;
-}
-
-.registro a img {
-    border-radius: 50%;
-    width:100px;
-    height:100px;
-    
-
-}
 
 /*CSS INICIO PROPIETARIO*/
-#inicioProp {
+/*#inicioProp {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -345,7 +246,7 @@ h2 {
 
 
 /*Css FACTURACION*/
-
+/*
 #saldo{
 width:400px;
 height: 250px;
@@ -373,7 +274,7 @@ footer{
 }
 
 /*Css misCocheras CamiBlumen*/
-
+/*
 .contenedor {
 	display: flex;
 	flex-direction: column;
@@ -430,6 +331,7 @@ footer{
 
 
 /*Css misCocheras CamiBlumen*/
+/*
 .contenido-cochera {
     background-color: #6879a1;
     position: relative;
@@ -451,7 +353,7 @@ footer{
     color: #fff;
 }
 /*Reserva cocheras*/
-
+/*
 .cochera-container,.reserva-container{
     display: flex;
     justify-content: center;
@@ -501,7 +403,7 @@ footer{
 
 
 /*css camila_blumen*/
-
+/*
 header {
     display: flex;
     justify-content: space-between;
@@ -511,13 +413,13 @@ header {
     font-size: 15px;
     background: #fff;   
 }
-
+/*
 .logo a img {
     width: 50px;
 }
 
 /*Estilo títulos*/
-.titulo{
+/*.titulo{
     margin-top: 3%;
     text-transform: uppercase;
     justify-content: center;
@@ -525,7 +427,7 @@ header {
 }
 
 /*Mis cocheras*/
-.contenido-cochera{
+/*.contenido-cochera{
     background-color: #6879a1;
     position: relative;
     border: 1px solid;
@@ -547,7 +449,7 @@ header {
 }
 /*Reserva cocheras*/
 
-.cochera-container,.reserva-container{
+/*.cochera-container,.reserva-container{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -597,7 +499,7 @@ header {
 
 
 /*Css Buscador*/
-
+/*
 
 * {
     margin: 0;
@@ -670,7 +572,7 @@ iframe {
 
 
   /* Visual Css de Login*/
-  body{
+ /* body{
     background: url(../imagenes/estacionamientovacio.jpg) no-repeat center center fixed;
     background-size: cover;
 }
@@ -734,4 +636,4 @@ button{
 
 .forgot a{
     color: white;
-}
+} */
