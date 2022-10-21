@@ -1,0 +1,141 @@
+
+body {
+  font-family: 'Sintony', sans-serif;
+  color: #e5e5e5;
+  font-size: 12px;
+  background: white;
+  line-height: 1;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px;
+  
+
+}
+header {
+  width: 100%;
+  height: 45px;
+  padding: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  clear: both;
+  content: "";
+  display: flex;
+  background-color: white;
+  /*flex: 1;*/
+}
+ol, ul {
+  list-style: none;
+}
+
+
+#logo{
+  width: 50px;
+  height: 50px;
+  float: left
+}
+
+.menu {
+  width: 100%;
+  margin: 0 auto;
+  height: 50px;
+  max-width: 1000px;
+
+}
+nav{
+  float:right;
+  height: 45px;
+  background-color:#ffff;
+  /*width:100%;
+  max-width:1000px;*/
+}
+nav ul li{
+  list-style: none;
+  margin-left: 15px;
+  float:left;
+}
+
+nav ul li a{
+  text-align: center;
+  text-decoration: none;
+  color: #8592b0;
+  font-weight: bold; 
+  font-size: 20px; 
+  padding: 8px 12px;
+}
+
+nav ul li a:hover {
+  background-color: rgba(4, 43, 84, 0.5);
+  color: #ffffff;
+  padding: 22px 15px;
+}
+
+#mapaBuscador, #googleMap{
+  width:200%; 
+  height: 600px;
+  background-color: bisque;
+  margin-top:4%;
+  padding: 0px;
+}
+#mapaBuscador{
+
+box-sizing: content-box;
+width: 100%;
+
+}
+#googleMap{
+  background-color: rgb(74, 92, 92);
+}
+
+iframe{
+  width: 100%;
+  height: 100%;
+  background-color: orange;
+  opacity: 0.80;
+  
+
+}
+
+.row{
+  width: 100%;
+  max-width: 1000px;
+
+}
+footer{
+  width: 100%;
+ /*height: 410px;*/
+  background-color: white;
+  padding:15px;
+  
+}
+.card-body{
+  background-color: #a4b5db;
+}
+@media screen and (min-width:800px) {
+.menu{
+width:100%;
+margin-top: 0px;
+}
+footer{
+  width:100%;
+}
+
+}
+@media screen and (max-width:600px) {
+.menu{
+width:100%;
+margin-top:0rem;
+}
+footer{
+  width:100%;
+}
+
+/*@media (max-width: 450px) {
+  .contenedor {
+      display: block;
+      max-width: 200px;
+  }
+  .contenedor-promocion {
+      display: flex;
+  }*/
+}
