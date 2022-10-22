@@ -9,8 +9,8 @@
    /* background: -webkit-linear-gradient(top,  #feffff 0%,#ddf1f9 44%,#a0d8ef 100%); /* Chrome10-25,Safari5.1-6 */
     /*background: linear-gradient(to bottom,  #feffff 0%,#ddf1f9 44%,#a0d8ef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); /* IE6-9 */
-    ;*/
-    padding: 30px;
+    ;
+    padding: 35px 0px;
     margin: auto;
     margin-top: 10%;
     margin-right:30%;
@@ -138,6 +138,7 @@ margin-left: 25px;
         margin:auto;
         height: 50%;
     }
+}
 /*@media screen and (max-width:300px) {
     .registro{
         width: 50%;
@@ -145,3 +146,5 @@ margin-left: 25px;
 
     
 }
+
+    
