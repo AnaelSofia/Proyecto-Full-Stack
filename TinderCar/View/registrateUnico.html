@@ -1,48 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-   <link rel="stylesheet" type="text/css" href="css/styleform.css" />
-   <link rel="stylesheet" type="text/css" href="css/style.css" />
-    
-    <title>Inscripcion</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/styleRegistro.css">
+
+  <title>Inscripcion</title>
 </head>
+
 <body>
-    <header>  
-        <div class="menu">
-         <a href="index.html"><img id="logo" src="imagenes/iconoAuto.png"> </a>  
-         <nav>    
-           <ul>
-             <li><a href="3">Acerca de nosotros</a></li>
-             <li><a href="3">Alquila tu cochera</a></li>
-             <li><a href="registro.html">Registrate</a></li>
-             <li><a href="Ingresa.html">Ingresa</a></li>
-           </ul>
-         </nav> 
-         </div>    
-       </header>
-
-    <section class="registro">
-        <br/>
-        <h4>Registro</h4>
-        <input class="relleno" type="text" name="nombres" id="nombres" placeholder="Nombre">
-        <input  class="relleno" type="text" name="nombres" id="nombres" placeholder="Apellido">
-        <input  class="relleno" type="text" name="nombres" id="nombres" placeholder="Email">
-        <input  class="relleno" type="number" name="nombres" id="nombres" placeholder="telefono (opcional)">
-        <input  class="relleno" type="password" name="nombres" id="nombres" placeholder="Contraseña">
-        <input  class="relleno" type="password" name="nombres" id="nombres" placeholder="Confirmar contraseña">
-        <p>Acepto los <a href="#">terminos y condiciones</a></p>
-        <input  class="boton" type="submit" value="Registrar mi cochera">
-        <input  class="boton" type="submit" value="Registrar mi vehiculo">
-
-        <p> <a href="#">¿Ya tenes una cuenta?</a></p>
-    
+  <header class="header">
+    <nav class="nav">
+      <a href="index.html">
+        <img class="nav-logo" src="imagenes/iconoAuto.png">
+      </a>
+      <button class="nav-btnNavbar" type="menu" id="btnNavbar">
+        <img src="imagenes/menu.png" alt="menu">
+      </button>
+      <ul class="nav-menu" id="responsiveMenu">
+        </li>
+        <li class="nav-menu-item">
+          <a href="#Acerca-de-nosotros" class="nav-menu-link">Acerca de nosotros</a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="#Alquila-tu-cochera" class="nav-menu-link">Alquila tu cochera</a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="registreUnico.html" class="nav-menu-link">Registrate</a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="login.html" class="nav-menu-link">Ingresa</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <form action="#" method="post" class="form" id="form">
+        <div class="form-title">
+          <h3>Registrate</h3>
+        </div>
+        <div class="form-group" id="groupFirstname">
+          <label for="userName" class="form-group-label">Nombre</label>
+          <input type="text" class="form-group-input" name="firstName" id="firstName" placeholder="John">
+          <p class="form-group-errorText">El nombre tiene que ser de 4 a 16 letras.</p>
+        </div>
+        <div class="form-group" id="groupLastname">
+          <label for="lastname" class="form-group-label">Apellido</label>
+          <input type="text" class="form-group-input" name="lastname" id="lastname" placeholder="Doe">
+          <p class="form-group-errorText">El apellido tiene que ser de 4 a 16 letras.</p>
+        </div>
+        <div class="form-group" id="groupEmail">
+          <label for="email" class="form-group-label">Correo Electrónico</label>
+          <input type="email" class="form-group-input" name="email" id="email">
+          <p class="form-group-errorText">El email solo puede contener letras, numeros, puntos, guíones y guíon bajo.
+          </p>
+        </div>
+        <div class="form-group" id="groupPhone">
+          <label for="phone" class="form-group-label">Telefono</label>
+          <input type="number" class="form-group-input" name="phone" id="phone">
+          <p class="form-group-errorText">El telefono solo puede contener numeros y el maximo son 14 digitos.</p>
+        </div>
+        <div class="form-group" id="groupPassword">
+          <label for="password" class="form-group-label">Contraseña</label>
+          <input type="password" class="form-group-input" name="password" id="password">
+          <p class="form-group-errorText">La contraseña tiene que ser de 4 a 12 digitos.</p>
+        </div>
+        <div class="form-group" id="groupPassword2">
+          <label for="password2" class="form-group-label">Confirmar Contraseña</label>
+          <input type="password" class="form-group-input" name="password2" id="password2">
+          <p class="form-group-errorText">Ambas contraseñas tienen que ser iguales</p>
+        </div>
+        <div class="form-group" id="groupTerminos">
+          <label class="form-group-label">
+            <input type="checkbox" class="form-group-label-checkbox" name="terms" id="terms">
+            Aceptos los <a href="#" class="form-group-label-checkbox-link">términos y condicones.</a>
+          </label>
+        </div>
+        <div class="form-messaje-error" id="formMessaje">
+          <p><b>Error</b> Por favor rellena el formulario correctamente.</p>
+        </div>
+        <div class="form-messaje-done" id="formDone">
+          <p>Formulario enviado correctamente.</p>
+        </div>
+        <div class="form-group form-group-btn">
+          <button type="submit" class="form-group-btn-send">Enviar</button>
+          <a href="#" class="form-group-link">¿Ya tenes una cuenta?</a>
+        </div>
+      </form>
     </section>
+  </main>
+
+  <script src="js/nav.js"></script>
+  <script src="js/validacionFormulario.js"></script>
 </body>
-<footer>
-    <p>Creado TinderCar 2022</p>
-  </footer>
+
 </html>

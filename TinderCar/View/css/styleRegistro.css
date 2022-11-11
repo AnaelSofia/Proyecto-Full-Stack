@@ -1,175 +1,159 @@
-* {
-    padding:0px;
-    margin: 0px;
-    font-family:Arial, Helvetica, sans-serif;
-
-}
-body{
-
-    background-color:#8d96a9;
+main {
+    width: 90%;
+    margin: 0 auto;
 }
 
-
-
-h2 {
-    color: #8592b0;
-
-}
-
-.home {
-    /*display: flex;
-    flex-wrap: wrap;
-    /*flex:2;
-    padding: 25px;
-    background-color: white;
-    margin: 20px;*/
-    /*width:100%;*/
-    max-width: 1000px;
-}
-
-/*.inflex{
-    flex:1;
-    padding: 25px;
-}*/
-
-.registro {
-    width: 50%;
-	background-color:#454951 ;
-    height: auto;
-	margin: auto;
-	margin-top: 10%;
-	margin-left: 50%;
-	border: 10px solid #0000; 
-	box-shadow: 7px 13px 37px #000;
-    margin-bottom: 20px;
-    flex: 2;
-    /*min-width: 300px;
-    /*padding: 0px;*/
-
-}
-
-
-
-.registro .registros{
-
-    color: #8592b0;
-    width: 100%;
-	background-color:#454951;
-	padding: 10px;
-	/*border-radius: 4px;
-	margin-bottom: 16px;*/
-	border: 1px solid #454951;
-	font-size: 18px;
-    font-family:Arial, Helvetica, sans-serif;
-    flex: 1;
-    /*min-width: 300px;
-    padding: 25px;*/
-	
-
-}
-
-
-.registro h3 {
-    color: #acb4c9;
-    margin:auto;
-    margin-top: 5%;
-    margin-left: 5%;
-
-}
-
-.registro h2{
-    color: #8592b0;
-}
-
-
-
-  /*.btn-bd-secondary:active {
-    color:blueviolet;
-  }*/
-
-
-.registro .botons {
-
-	width: 100%;
-	background: #4f42de;
-	border: solid 2px blueviolet;
-	padding: 12px;
-	color: whitesmoke;
-	margin: 16px 0;
-	font-size: 16px;
-    font-family:Arial, Helvetica, sans-serif;
-} 
-
-.registro p{
-    text-align: center;
-}
-
-.form-check{
-    color: #8592b0;
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background: #2c3e50;
+    padding: 20px 40px;
+    max-width: 750px;
+    margin: 20px auto;
     font-size: 16px;
-    font-family:Arial, Helvetica, sans-serif;
-
 }
 
-.registro h5{
-    color: #8592b0;
-    font-family:Arial, Helvetica, sans-serif;
-} 
-
-
-.btn-1{
-    margin-left:35%;
-    border-radius: 50%;
-    background-color: #8d96a9;
+.form-title {
+    color: #fff;
 }
 
-.registro a img {
-    border-radius: 50%;
-    width:100px;
-    height:100px;
-    
-
+.form-group-label {
+    display: block;
+    font-weight: 700;
+    padding: 10px;
+    cursor: pointer;
+    color: #fff;
 }
 
-@media screen and (max-width:600px) {
-    .registro{
-        width: 40%;
-        margin:auto;
-        height: 50%;
+.form-group-input {
+    width: 100%;
+    background: #fff;
+    border: 3px solid transparent;
+    border-radius: 3px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 10px;
+    transition: .3s ease all;
+}
+
+.form-group-input:focus {
+    border: 3px solid #0075ff;
+    outline: none;
+    box-sizing: 3px 0 30px rgba(163, 163, 163, 0.4);
+}
+
+.form-group-errorText {
+    font-size: 12px;
+    margin-bottom: 0;
+    display: none;
+    margin-top: 10px;
+    color: #ff0000;
+}
+
+.form-group-errorText-active {
+    display: block;
+}
+
+.form-group-label-checkbox {
+    margin-right: 10px;
+}
+
+.form-group-label-checkbox-link {
+    text-decoration: none;
+}
+
+.form-messaje-error,
+.form-messaje-done,
+.form-title,
+.form-group-btn {
+    grid-column: span 2;
+}
+
+.form-messaje-error,
+.form-messaje-done {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 15px;
+    border-radius: 3px;
+    display: none;
+    color: #2d2d2d;
+}
+
+.form-messaje-error {
+    background: #f66060;
+}
+
+.form-messaje-done {
+    background: #0ab210;
+}
+
+.form-messaje-done-active,
+.form-messaje-error-active {
+    display: block;
+}
+
+.form-title,
+.form-group-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group-btn-send {
+    height: 45px;
+    line-height: 45px;
+    width: 30%;
+    background: #000;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: .1s ease all;
+}
+
+.form-group-btn-send:hover {
+    box-shadow: 3px 0 30px rgba(163, 163, 163, 1);
+}
+
+.form-group-link {
+    text-decoration: none;
+    color: #fff;
+    margin: 20px 0;
+}
+
+
+.form-group-error .form-group-label {
+    color: #ff0000;
+}
+
+.form-group-error .form-group-input {
+    border: 3px solid #ff0000;
+}
+
+.form-group-done .form-group-label {
+    color: #fff;
+}
+
+.form-group-done .form-group-input {
+    border: 3px solid #0ab210;
+}
+
+@media screen and (max-width:768px) {
+    .form {
+        grid-template-columns: 1fr;
+        padding: 20px;
     }
 
-    
-}
-
-@media screen and (max-width:800px) {
-    .registro{
-        width: 40%;
-        margin:auto;
-        height: 50%;
+    .form-messaje-error,
+    .form-messaje-done,
+    .form-title,
+    .form-group-btn {
+        grid-column: span 1;
     }
 
-    
-}
-@media screen and (max-width:900px) {
-    .registro{
-        width: 40%;
-        margin:auto;
-        height: 50%;
+    .form-group-btn-send {
+        width: 100%;
     }
-
-    
-}
-
-@media screen and (max-width:1000px) {
-    .registro{
-        width: 40%;
-        margin:auto;
-        height: 50%;
-    }
-/*@media screen and (max-width:300px) {
-    .registro{
-        width: 50%;
-    }
-
-    
 }

@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-size: 15px;
+    font-family: 'Sintony', sans-serif;
+}
+
+.mapScreen {
+    width: 100%;
+    position: absolute;
+}
+
+.mapScreen iframe {
+    height: 100vh;
+    width: 100%;
+}
+
+.userCard {
+    position: relative;
+    left: 75%;
+    display: inline-block;
+    border: 1px solid darkgray;
+    padding: 20px;
+    top: 120px;
+    width: 200px;
+    background: #fff;
+
+}
+
+.userCard-perfil {
+    background: rgb(0, 179, 255);
+    display: inline-flex;
+    border-radius: 50%;
+    padding: 3px;
+    position: absolute;
+    top: -30px;
+    right: -25px;
+}
+
+.userCard-name {
+    margin-bottom: 10px;
+}
+
+.userCard-block {
+    border-top: 2px solid darkgray;
+    border-bottom: 2px solid darkgray;
+    padding: 10px 0;
+}
+
+.userCard-block-section {
+    display: flex;
+    align-items: center;
+}
+
+.userCard-block-section-icon {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.userCard-block-section-link,
+.userCard-block2-link {
+    text-decoration: none;
+    color: rgb(74, 74, 74);
+    font-weight: 600;
+}
+
+.userCard-block,
+.userCard-block2 {
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userCard-block2 {
+    margin-top: 10px;
+}
+
+.userCard-block2-btn {
+    border: none;
+    background: none;
+    text-align: left;
+    font-weight: 600;
+    color: red;
+    cursor: pointer;
+}
+
+@media screen and (max-width:992px) {
+    .userCard {
+        left: 60%;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .userCard {
+        left: 40%;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .userCard {
+        left: 25%;
+    }
+}
