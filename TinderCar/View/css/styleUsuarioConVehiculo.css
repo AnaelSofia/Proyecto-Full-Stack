@@ -34,6 +34,34 @@
 
 }
 
+.userCard2{
+    position: relative;
+    left: 10%;
+    display: inline-block;
+    border: 1px solid darkgray;
+    padding: 20px;
+    /*top: 120px;*/
+    bottom: 550px;
+    width: 200px;
+    background: #fff;
+
+
+}
+
+.userCard2 h6{
+    margin-top: 15%;
+}
+
+.userCard2 h5{
+    margin-top: 10%;
+}
+.userCard2 .btn-dark{
+    margin-top: 15%;
+    margin-left: 0;
+    width: 100%;
+    
+}
+
 .userCard-perfil {
     background: #2fcdcd;
     display: inline-flex;
