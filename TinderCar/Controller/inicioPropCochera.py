@@ -1,1 +1,4 @@
 porpiedadCochera()
+
+
+cargarPropietario()
