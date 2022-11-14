@@ -1,0 +1,6 @@
+validarDatos()
+
+confirmarRegistro()
+
+
+crearUsuario()

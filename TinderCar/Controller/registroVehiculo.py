@@ -1,0 +1,5 @@
+cargarVehiculo()
+
+validarDatos()
+
+confirmarRegistro()
