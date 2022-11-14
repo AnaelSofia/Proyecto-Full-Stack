@@ -1,5 +1,0 @@
-cargarVehiculo()
-
-validarDatos()
-
-confirmarRegistro()

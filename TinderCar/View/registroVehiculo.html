@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TinderCar</title>
     
-    <link rel="stylesheet" type="text/css" href="css/styleIndex.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/styleRegistro.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
@@ -17,66 +18,111 @@
     />
   </head>
   <body>
-    <header>
-      <div class="menu">
-        <a href="index.html"><img id="logo" src="imagenes/iconoAuto.png" /></a>
-        <nav>
-          <ul>
-            <li><a href="3">Acerca de nosotros</a></li>
-            <li><a href="3">Alquila tu cochera</a></li>
-            <li><a href="3">Registrate</a></li>
-            <li><a href="Ingresa.html">Ingresa</a></li>
-          </ul>
-        </nav>
-      </div>
+    <header class="header">
+      <nav class="nav">
+        <a href="index.html">
+          <img class="nav-logo" src="imagenes/iconoAuto.png">
+        </a>
+        <button class="nav-btnNavbar" type="menu" id="btnNavbar">
+          <img src="imagenes/menu.png" alt="menu">
+        </button>
+        <ul class="nav-menu" id="responsiveMenu">
+          </li>
+          <li class="nav-menu-item">
+            <a href="#Acerca-de-nosotros" class="nav-menu-link">Acerca de nosotros</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#Alquila-tu-cochera" class="nav-menu-link">Alquila tu cochera</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="registreUnico.html" class="nav-menu-link">Registrate</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="login.html" class="nav-menu-link">Ingresa</a>
+          </li>
+        </ul>
+      </nav>
     </header>
+    
 
     <section>
-      <form>
-        <div class="registro">
-          <h3>Registrá tu automóvil</h3> <br/>
-          <!--<h2>____________________________</h2>-->
-
-          <div class="registros">
-            <label for="nombre" class="form-label"> Marca del automóvil </label>
-            <input type="nombre" class="form-control" id="nombre" />
-          </div>
-          <div class="registros">
-            <label for="contraseña" class="form-label">
-              Modelo del automóvil</label
-            >
-            <input type="contraseña" class="form-control" id="contraseña" />
-          </div>
-          <br />
-          <a class="btn-1" href="#">
-            <img
-              src="imagenes/icperfil.jpg"
-              alt="imagen avatar"
-              title="avatar"
-              
-              
-      
-            />
-          </a>
-          <!-- <button type="button">
-         <img src="imagenes/blank-profile-picture-973460_960_720.jpg" alt="imagen avatar" title="avatar" width="50px" height="50px" text-align="center"/>
-       
-        </button> -->
-          <input
-            class="botons btn btn-secondary"
-            type="submit"
-            value="Agregar Avatar"
-          />
-          <input
-            class="botons btn btn-secondary"
-            type="submit"
-            value="Registrar"
-          />
+      <form action="#" method="post" class="form" id="form">
+        <div class="form-title">
+          <h3>Registrate</h3>
         </div>
+        <div class="form-group" id="groupFirstname">
+          <label for="userName" class="form-group-label"> Marca del automovil </label>
+          <input type="text" class="form-group-input" name="firstName" id="firstName">
+          <p class="form-group-errorText">El nombre tiene que ser de 4 a 16 letras.</p>
+        </div>
+        <div class="form-group" id="groupLastname">
+          <label for="lastname" class="form-group-label"> Modelo</label>
+          <input type="text" class="form-group-input" name="lastname" id="lastname">
+          <p class="form-group-errorText">El apellido tiene que ser de 4 a 16 letras.</p>
+        </div>
+        <div class="form-group" id="groupEmail">
+          <label for="email" class="form-group-label"> Patente </label>
+          <input type="email" class="form-group-input" name="email" id="email">
+          <p class="form-group-errorText">El email solo puede contener letras, numeros, puntos, guíones y guíon bajo.
+          </p>
+        </div>
+        
+        </div>
+        <div class="form-messaje-error" id="formMessaje">
+          <p><b>Error</b> Por favor rellena el formulario correctamente.</p>
+        </div>
+        <div class="form-messaje-done" id="formDone">
+          <p>Formulario enviado correctamente.</p>
+        </div>
+        <div class="form-group form-group-btn">
+          <button type="submit" class="form-group-btn-send"> Registar Automovil </button>
       </form>
     </section>
+
+
+
+    <footer>
+      <div class="footer">
+        <div class="grupo1">
+    
+          <div class="box"> 
+            <h2> SOBRE NOSOTROS</h2>
+            <p>
+              TinderCar es una página que busca facilitar la conexión entre usuarios de automiles y propietarios de cocheras. Lo que buscamos es
+              ayudar a los aumovilistas a encontrar cocheras de manera eficaz y sencilla para guardar su vehículo, como también facilitar a los dueños
+              de las cocheras la difusión de las mismas y poder administrarlas de la mejor manera posible.
+            </p>
+  
+            <p>
+              <a href="#"> Nuestro Blog </a>
+            </p>
+          </div>
+          
+          <div class="box"> 
+            <h2> SEGUINOS </h2>
+          
+          <div class="logos">
+            <a href="https://www.facebook.com/">  Facebook </a>
+            <a href="https://twitter.com/">  Twitter </a>
+            <a href="https://www.instagram.com/">  Instagram </a>
+           
+            <!--<img src="imagenes/icono facebook.png" alt="facebook">
+            <img src="imagenes/icono instagram.png" alt="instagram">
+            <img src="imagenes/icono twitter.png" alt="twitter">-->
+          </div>
+  
+        </div>
+          
+        </div>
+      
+  
+      <div class="grupo2"> 
+      
+      <small>&copy; 2022 <b> TinderCar </b> - Todos los derechos Reservados.</small>
+    </div>
+  
+    </div>
+    </footer>
   </body>
-  <footer>
-    <p>Creado TinderCar 2022<</p>
-  </footer>
+  
 </html>

@@ -1,3 +1,0 @@
-cargaMapa()
-
-listarCocheras()
