@@ -1,5 +1,0 @@
-validarDatos()
-
-confirmarRegistro()
-
-cargarCochera()

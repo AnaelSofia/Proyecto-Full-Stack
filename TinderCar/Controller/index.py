@@ -1,3 +1,0 @@
-crearUsuario()
-
-loguearUsuario()

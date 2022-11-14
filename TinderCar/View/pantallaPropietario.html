@@ -6,63 +6,106 @@
             
             <link rel="stylesheet" type="text/css" href="css/style.css">
             <link rel="stylesheet" type="text/css" href="css/stylePropietario.CSS">
+            <link rel="stylesheet" type="text/css" href="css/footer.css">
+            
+
+
             
         </head>
         <body>
-            <header>  
-                <div class="menu">
-                 <a href="index.html"><img id="logo" src="imagenes/iconoAuto.png"> </a>  
-                 <nav>    
-                   <ul>
-                     <li><a href="3">Acerca de nosotros</a></li>
-                     <li><a href="3">Alquila tu cochera</a></li>
-                     <li><a href="registro.html">Registrate</a></li>
-                     <li><a href="Ingresa.html">Ingresa</a></li>
-                   </ul>
-                 </nav> 
-                 </div>    
-               </header>
+          <header class="header">
+            <nav class="nav">
+              <a href="index.html">
+                <img class="nav-logo" src="imagenes/iconoAuto.png">
+              </a>
+              <button class="nav-btnNavbar" type="menu" id="btnNavbar">
+                <img src="imagenes/menu.png" alt="menu">
+              </button>
+              <ul class="nav-menu" id="responsiveMenu">
+                </li>
+                <li class="nav-menu-item">
+                  <a href="#Acerca-de-nosotros" class="nav-menu-link">Acerca de nosotros</a>
+                </li>
+                <li class="nav-menu-item">
+                  <a href="#Alquila-tu-cochera" class="nav-menu-link">Alquila tu cochera</a>
+                </li>
+                <li class="nav-menu-item">
+                  <a href="registroVehiculo.html" class="nav-menu-link"> Registra tu vehículo </a>
+                </li>
+                <li class="nav-menu-item">
+                  <a href="registreUnico.html" class="nav-menu-link">Registrate</a>
+                </li>
+                <li class="nav-menu-item">
+                  <a href="login.html" class="nav-menu-link">Ingresa</a>
+                </li>
+              </ul>
+            </nav>
+          </header>
              
-            <!--<img src="usuario.png" class="usuario">
-            <div class="contenedor">
-                <img src="usuario.png" class="usuario">
-                <label id="nombre">Nombre</label>
-                <a href="#" class="btn">Mis cocheras</a>
-                <a href="#" class="btn">Cocheras reservadas</a>
-                <a href="#" class="btn">Facturación</a>
-                <a href="#" class="btn">Retirá tu dinero</a>
-                <label id="sesion" class="sesion">Cerrar Sesión</label>
-            </div> -->
             <section>
-                <div class="box">
+                <div class="caja">
                     <h2> Nombre </h2>
-                    <input
-            class="botons btn btn-secondary"
-            type="button"
-            value="Mis cocheras"
-          />
-          <input
-            class="botons btn btn-secondary"
-            type="button"
-            value="Cocheras reservadas"
-          />
-          <input
-            class="botons btn btn-secondary"
-            type="button"
-            value="Facturación"
-          />
-          <input
-            class="botons btn btn-secondary"
-            type="button"
-            value="Retira tu dinero"
-          />
 
+            <div class="botones">    
+          <button type="submit" class="form-group-btn-send"> Mis cocheras </button>
+          
+          <button type="submit" class="form-group-btn-send"> Cocheras Reservadas </button>
+        
+          <button type="submit" class="form-group-btn-send"> Facturación </button>
+          
+          <button type="submit" class="form-group-btn-send"> Retira tu Dinero </button>
+        </div>  
                 </div>
 
 
             </section>
 
+            <footer>
+              <div class="footer">
+                <div class="grupo1">
+            
+                  <div class="box"> 
+                    <h2> SOBRE NOSOTROS</h2>
+                    <p>
+                      TinderCar es una página que busca facilitar la conexión entre usuarios de automiles y propietarios de cocheras. Lo que buscamos es
+                      ayudar a los aumovilistas a encontrar cocheras de manera eficaz y sencilla para guardar su vehículo, como también facilitar a los dueños
+                      de las cocheras la difusión de las mismas y poder administrarlas de la mejor manera posible.
+                    </p>
+          
+                    <p>
+                      <a href="#"> Nuestro Blog </a>
+                    </p>
+                  </div>
+                  
+                  <div class="box"> 
+                    <h2> SEGUINOS </h2>
+                  
+                  <div class="logos">
+                    <a href="https://www.facebook.com/">  Facebook </a>
+                    <a href="https://twitter.com/">  Twitter </a>
+                    <a href="https://www.instagram.com/">  Instagram </a>
+                   
+                    <!--<img src="imagenes/icono facebook.png" alt="facebook">
+                    <img src="imagenes/icono instagram.png" alt="instagram">
+                    <img src="imagenes/icono twitter.png" alt="twitter">-->
+                  </div>
+          
+                </div>
+                  
+                </div>
+              
+          
+              <div class="grupo2"> 
+              
+              <small>&copy; 2022 <b> TinderCar </b> - Todos los derechos Reservados.</small>
+            </div>
+          
+            </div>
+            </footer>
+
 
     
     
         </body>
+
+    </html>
