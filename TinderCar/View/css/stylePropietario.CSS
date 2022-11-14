@@ -1,22 +1,22 @@
-.box{
-    width: 100%;
+.caja{
+    width: 50%;
     /*height: 50%;*/
-    margin-top: 10%;
-    margin-left: 0%;
-    margin-right: 25%;
-    background-color:#454951;
-    padding: 25px;
-    /*border-radius: 5%;*/
-    border: 1px solid #454951;
+    margin-top: 5%;
+    margin-left: 25%;
+    /*margin-right: 25%;*/
+    background-color:#2c3e50;
+    padding: 25px 100px;
+    border: 1px solid #2c3e50;
     box-shadow: 7px 13px 35px #000;
+   
 
 }
 
 .botons {
 
 	width: 100%;
-	background: #4f42de;
-	border: solid 2px blueviolet;
+	background:#000;
+	border: solid 2px #000 ;
 	padding: 12px;
 	color: whitesmoke;
 	margin: 16px 0;
@@ -30,6 +30,78 @@
     background-color: #8d96a9;
 }
 
-.box h2{
-    margin-left: 45%;
+.caja h2{
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-group-btn-send {
+    height: 45px;
+    line-height: 45px;
+    width: 100%;
+    background: #000;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: .1s ease all;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    /*margin-left:150px;*/
+    padding: ;
+
+}
+
+/*.caja .botones{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.form-group-btn-send:hover {
+    box-shadow: 3px 0 30px rgba(163, 163, 163, 1);
+}
+
+@media screen and (max-width:800px) {
+
+    .caja{
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .caja .form-group-btn-send{
+        
+        
+        width: 100%;
+        margin-left: 10px;
+        display: flex;
+        justify-content: center;
+        
+     
+    
+    }
+
+}
+
+@media screen and (max-width:600px) {
+
+    .caja{
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+
+}
+
+@media screen and (max-width:250px) {
+
+    .caja{
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+
 }

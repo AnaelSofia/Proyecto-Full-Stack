@@ -1,6 +1,0 @@
-validarDatos()
-
-confirmarRegistro()
-
-
-crearUsuario()

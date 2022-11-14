@@ -1,3 +1,0 @@
-creatTicket()
-
-pagarTicket()
