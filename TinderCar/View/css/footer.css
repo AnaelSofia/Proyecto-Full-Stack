@@ -3,6 +3,7 @@
     background: #2fcdcd;
     color:aliceblue;
     margin-top: 50px;
+    font-family:'Sintony', sans-serif !important;
 }
 
 .footer .grupo1{
@@ -13,6 +14,7 @@
     grid-template-columns: repeat(2 ,1fr);
     grid-gap:50px;
     padding:45px 0px;
+
 
         /*margin-top: 10%;*/
 }
@@ -29,13 +31,14 @@
 
 .footer .grupo1 .box h2{
     color: #2d2b2b;
-    margin-bottom: 25 px;
+    margin-bottom: 25px;
     font-size: 15px;
 
 }
 
 .footer .grupo1 .box p{
     color:#2d2b2b;
+    font-family:'Sintony', sans-serif !important;
     /*margin-bottom: 20px;*/
 }
 
