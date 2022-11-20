@@ -1,6 +1,6 @@
 main {
     width: 90%;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 
 .form {
@@ -12,16 +12,16 @@ main {
     max-width: 750px;
     margin: 20px auto;
     font-size: 16px;
+    margin-bottom: 165px;
+
 }
+
 
 .form .check{
     
     display: flex;
     justify-content:flex-start;
     flex-direction: column;
-
-    
-
 }
 
 .form .titulo{
@@ -111,6 +111,7 @@ main {
 }
 
 .form-title,
+.t,
 .form-group-btn {
     display: flex;
     flex-direction: column;

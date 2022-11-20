@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Iniciar Sesion</title>
 	<link rel="stylesheet" href="css/stylesesion.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -32,20 +34,27 @@
 		  </ul>
 		</nav>
 	  </header>
-
+	<div class="Contenedor">
 	<div class="container">
-		<h5 class="label">Iniciar Sesion</h5>
 		<form class="login_form" action="home.html" method="post" name="form" onsubmit="return validated()">
-			<div class="font">Email</div>
+			<h5 class="label">Iniciar Sesion</h5>
+			<div>
+			<p class="font">Email</p>
 			<input autocomplete="off" type="text" name="email">
 			<div id="email_error">Por favor, ingrese su Email</div>
-			<div class="font font2">Contraseña</div>
+		    </div>
+			<div>
+			<p class="font font2">Contraseña</p>
 			<input type="password" name="password">
 			<div id="pass_error">Por favor, ingrese su contraseña</div>
-			<button type="submit" >Conectar</button>
+		    </div>
+			<div class="conectar">
+			<button type="submit">Ingresar</button>
+		    </div>
 		</form>
-	</div>	
-	<script src="js/valid.js"></script>
+	</div>
+</div>	
+	
 
   <footer>
     <div class="footer">
@@ -58,12 +67,10 @@
             ayudar a los aumovilistas a encontrar cocheras de manera eficaz y sencilla para guardar su vehículo, como también facilitar a los dueños
             de las cocheras la difusión de las mismas y poder administrarlas de la mejor manera posible.
           </p>
-
           <p>
             <a href="#"> Nuestro Blog </a>
           </p>
         </div>
-        
         <div class="box"> 
           <h2> SEGUINOS </h2>
         
@@ -89,5 +96,7 @@
 
   </div>
   </footer>
+  <script src="js/nav.js"></script>
+  <script src="js/valid.js"></script>
 </body>
 </html>
